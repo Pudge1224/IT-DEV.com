@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Nosifer&family=Rubik+Mono+One&display=swap');
+
+body,html{
+height: 100%;
+margin: 0;
+font-family:'Ubuntu',sans-serif;
+text-align: center;
+}
+h2{
+	text-align: center;
+position: absolute;
+top: 10%;
+left: 2%;
+right: 0%;
+color: white;
+font-size: 100px;
+font-family: 'Black Ops One', cursive;
+}
+video{
+	max-width: 100%;
+	max-height: 100%;
+	filter: blur(2px);
+}
+.menu{
+	position: absolute;
+	top: 50%;
+	left: 37%;
+	background-size: 30px;
+}
+button{
+	width: 400px;
+	padding:50px;
+	border: none;
+	font-weight:1000;
+	font-size: 30px;
+	text-decoration: none;
+	box-shadow: 20px 20px black;
+	border-radius: 40px;
+}
+.pageone{
+	background:url(bac1.jpg);
+	min-height: 100%;
+}
+.pagetwo{
+	background:url(bac2.jpg);
+	min-height: 100%;
+}
+.pagethree{
+	background:url(bac3.jpg);
+	min-height: 100%;
+}
+.pageone,.pagetwo,.pagethree{
+	position: relative;
+	opacity: .90;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.headinga{
+	font-family: 'Black Ops One', cursive;
+	position: absolute;
+	color: #fff;
+	font-size: 550%;
+	top: 38%;
+	width: 100%;
+	text-transform: uppercase;
+	letter-spacing:  8px;
+	text-shadow: 0 0 10px #000;
+}
+.headingb{	
+	font-family: 'Black Ops One', cursive;
+	position: absolute;
+	color: #fff;
+	font-size: 550%;
+	top: 38%;
+	width: 100%;
+	text-transform: uppercase;
+	letter-spacing:  8px;
+	text-shadow: 0 0 10px #000;
+}
+.headingc{
+	font-family: 'Black Ops One', cursive;
+	position: absolute;
+	color: #fff;
+	font-size: 550%;
+	top: 38%;
+	width: 100%;
+	text-transform: uppercase;
+	letter-spacing:  8px;
+	text-shadow: 0 0 10px #000;
+}
+.one{
+	font-size: 20px;
+	float: left;
+	width: 42%;
+	padding: 0 4%;
+	text-align: left;
+}
+.two{
+	font-size: 20px;
+	float: left;
+	width: 42%;
+	padding: 0 4%;
+	text-align: left;
+}
+.three{
+	font-size: 20px;
+	float: left;
+	width: 42%;
+	padding: 0 4%;
+	text-align: left;
+}
+section{
+	background-color: #323232;
+	color: #f2f2f2;
+	overflow: auto;
+}
+h3{
+font-size: 30px;
+}
+@media (max-width: 768px){
+	.headinga{
+		font-size: 250%;
+	}
+	.headingb{
+		font-size: 250%;
+	}
+	.headingc{
+		font-size: 250%;
+	}
+	.one{
+	width: 100%;
+	padding: 0;
+	text-align: center;	
+	}
+	.two{
+	width: 100%;
+	padding: 0;
+	text-align: center;	
+	}
+	.three{
+	width: 100%;
+	padding: 0;
+	text-align: center;	
+	}
+}
